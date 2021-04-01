@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>Number Game</title>
+</head>
+<body>
+
+  
+  <div class="game-container" id="game-container">
+    <label for="user-number"><h2>Please Guess a Number <br> From 1 -10</h2></label>
+    <input type="number" id="user-number" min="1" max="10">
+    <button class="submit" id="submit">Take a guess</button>
+    <button class="play-again" id="play-again">Play Again</button>
+  </div>
+  
+  <div class="game-status">
+    <h2>Previous Guesses </h2>
+    <div class="guesses"id="guesses"></div>
+    <h2>Attempts</h2>
+    <div class="attempts" id='attempts'></div>
+    <div class="feedback" id='feedback'></div>
+  </div>
+
+</body>
+</html>
